@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* webfont */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;700&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body, span, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'iceJaram-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+html{
+    font-size: 15px;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+}
+#wrap{
+    min-width: 1400px;
+}
+#header{
+    font-family: 'Noto Sans KR', sans-serif;
+    background: url(../images/texture.jpg);
+    border-bottom: #333 1px solid;
+    width: 100%;
+}
+.inner_header{
+
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.gnb{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.gnb> li{
+    float: left;
+}
+.gnb> li> a{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    padding: 20px 50px;
+    color: #333;
+}
+.gnb> li:hover> a{
+    color: #C99C89;
+}
+#banner{
+    height: 1200px;
+    background: url(../images/texture.jpg);
+}
+.inner_banner{
+    font-family: 'Cormorant Upright', serif;
+    text-align: center;
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+.inner_banner>img{
+    width: 100%;
+    margin-top: 150px;
+
+}
+.round{
+    animation: star 15s infinite linear;
+    position: absolute;
+    top: 750px;
+    right: -60px;
+}
+@keyframes star{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+table{
+    margin-top: 30px;
+    color: #85715F;
+    text-align: left;
+    height: 120px;
+    width: 100%;
+    font-size: 30px;
+}
+td{
+    padding: 30px;
+    border-bottom: #85715F 1px solid;
+}
+.title{
+    border-left: #85715F 1px solid;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+}
+#list{
+    text-align: center;
+    width: 1320px;
+    margin: 0 auto;
+    height: 750px;
+}
+h2{
+    color: #85715F;
+    margin: 70px 0;
+
+}
+#list ul li{
+    position: relative;
+    margin-left: 11px;
+    float: left;
+}
+#list ul li:nth-child(1){
+    margin-left: 0;
+}
+.down{
+    margin-top: 60px;
+}
+.cover{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    color: #fff;
+    font-size: 18px;
+    transform: translateY(20px);
+    opacity: 0;
+}
+.w{
+    color: #333;
+}
+#list ul li:hover a .cover{
+    transform: translateY(0px);
+    transition: all 0.8s;
+    opacity: 1;
+}
+#contents{
+    position: relative;
+    font-family: 'iceJaram-Rg';
+    background: url(../images/paper-texture.png);
+}
+#contents>img{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: -60px;
+}
+.inner_contents{
+    width: 1000px;
+    margin: 0 auto;
+}
+.box_1{
+    margin-bottom: 50px;
+    border-bottom: #85715F 1px solid;
+    background: url(../images/sun_Text.png)no-repeat left 50px;
+    height: 550px;
+    width: 100%;
+}
+.box_1>.img{
+    width: 45%;
+    float: right;
+}
+.text{
+    font-size: 24px;
+    box-sizing: border-box;
+    padding: 200px 0 0 80px;
+    width: 55%;
+    float: left;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.box_2{
+    margin-bottom: 50px;
+    border-bottom: #85715F 1px solid;
+    background: url(../images/hydra_text.png)no-repeat 470px 50px;
+    height: 550px;
+    width: 100%;
+}
+.box_2>.img{
+    width: 45%;
+    float: left;
+}
+.text_2{
+    font-size: 24px;
+    box-sizing: border-box;
+    padding: 200px 0 0 80px;
+    width: 55%;
+    float: right;
+}
+#gerbera{
+    margin-bottom: 0;
+    border: 0;
+}
+#footer{
+    height: 150px;
+    background-color: #ECDAD1;
+}
+.inner_footer{
+    padding-top: 20px;
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+.link{
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+.link li{
+    float: left;
+}
+.link li a{
+    display: block;
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+.link li:nth-child(4) a{
+    margin-right: 0;
+    padding-right: 0;
+}
+.inner_footer> p{
+    margin-top: 10px;
+    line-height: 22px;
+}
+.icon{
+    position: absolute;
+    right: 0;
+    top:80px;
+}
+.icon li{
+    float: left;
+}
+.icon li a{
+    margin-left: 15px;
+}
+.icon li:hover a{
+    opacity: 0.5;
+}
+.btn{
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    z-index: 8;
+}

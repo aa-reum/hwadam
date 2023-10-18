@@ -1,0 +1,379 @@
+@charset "utf-8";
+/* webfont */
+ @import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Nanum+Gothic&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select {
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+html{
+    font-size: 15px;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 24px;
+    color: #333;
+}
+#wrap{
+    min-width: 1400px;
+}
+/*header*/
+#header{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+
+}
+.header_scroll{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+}
+.header_scroll .inner_header .gnb li a{
+    color: #333;
+}
+
+.inner_header{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+.gnb{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.gnb li{
+    float: left;
+}
+.gnb> li> a{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    padding: 20px 50px;
+    color: #fff;
+}
+.gnb> li:hover> a{
+    color: #C99C89;
+}
+#banner{
+    position: relative;
+    box-sizing: border-box;
+    padding: 320px;
+    text-align: center;
+    height: 975px;
+    background: url(../images/clear.jpg) no-repeat center;
+}
+#banner>div{
+    text-align: left;
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    margin-left: -600px;
+    color: #fff;
+}
+#banner>div>p{
+    font-size: 22px;
+    margin-top: 20px;
+}
+#container{
+    height: 1680px;
+    background-color: #F3F3EE;
+}
+.inner_container{
+    position: relative;
+    width: 1320px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+h2{
+    text-align: center;
+    margin-bottom: 150px;
+}
+h3{
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+.more{
+    display: block;
+    background: url(../images/more.png) no-repeat right center;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    width: 110px;
+    height: 30px;
+}
+.best li{
+    position: relative;
+    float: left;
+    width: 33%;
+    margin-right: 0.5%;
+}
+.best> li> a> img{
+    width: 100%;
+    display: block;
+}
+.best> li:nth-child(3){
+    margin-right: 0;
+}
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.cover> p{
+    text-align: center;
+    margin-top: 230px;
+    margin-bottom: 130px;
+}
+.cover span{
+    text-align: center;
+    display: block;
+}
+.best li:hover a .cover{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.category{
+    height: 700px;
+}
+.vase{
+    top: 900px;
+    left: 0;
+}
+.vasemore{
+    top: 900px;
+    right: 0;
+}
+#intro{
+    height: 1200px;
+    margin: 120px auto;
+    overflow: hidden;
+}
+.auto{
+    height: 500px;
+    width: 1320px;
+    margin: 50px auto;
+}
+.box1{
+    height: 100%;
+    float: left;
+    width: 55%;
+    position: relative;
+}
+.color{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 1320px;
+    height: 480px;
+    background-color: #F3E8EA;
+}
+.flower1{
+    position: absolute;
+    left: 0;
+    top: -20%;
+}
+.text1{
+    width: 45%;
+    padding-top: 200px;
+    box-sizing: border-box;
+    height: 480px;
+    float: right;
+    text-align: center;
+}
+.box2{
+    height: 100%;
+    float: right;
+    width: 55%;
+    position: relative;
+}
+.color2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1320px;
+    height: 480px;
+    background-color: #E6E8EE;
+}
+.flower2{
+    position: absolute;
+    left: 0;
+    top: -30%;
+}
+.text2{
+    width: 45%;
+    padding-top: 200px;
+    box-sizing: border-box;
+    height: 480px;
+    float: left;
+    text-align: center;
+}
+.btn a{
+    margin-top: 50px;
+    display: inline-block;
+    border: 1px solid #333;
+    padding: 5px 10px;
+}
+.btn:hover a{
+    background-color: #333;
+    color: #fff;
+}
+
+.bg{
+    position: relative;
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+    background-image: url(../images/a-field-of-flowers-with-a-mountain-in-the-background.jpg);
+    background-attachment: fixed;
+}
+
+.benefit{
+    width: 640px;
+    position: absolute;
+    z-index: 9;
+    top: 100px;
+    left: 50%;
+    margin-left: -320px;
+    color: #fff;
+}
+.benefit li{
+    text-shadow: 1px 1px 3px #888;
+    box-sizing: border-box;
+    padding-top: 60px;
+    float: left;
+    width: 50%;
+    height: 200px;
+    font-size: 26px;
+    text-align: center;
+    line-height: 40px;
+
+}
+.benefit li:nth-child(1){
+    border-right: #fff 1px solid;
+}
+.benefit2{
+    top: 300px;
+    border-top: 1px #fff solid;
+}
+.subscribe{
+    
+    display: inline-block;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 30px;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    margin-left: -110px;
+}
+.subscribe:hover{
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+}
+#insta{
+    width: 1320px;
+    height: 900px;
+    margin: 200px auto;
+    position: relative;
+}
+.insta{
+    position: absolute;
+    overflow: hidden;
+}
+.pic1{
+    top: 150px;
+    left: 0;
+}
+.pic2{
+    top: 150px;
+    left: 445px;
+}
+.pic3{
+    top: 535px;
+    left: 0;
+}
+.pic4{
+    top: 535px;
+    left: 555px;
+}
+.pic5{
+    left: 555px;
+    top: 729px;
+}
+
+.pic6{
+    right: 0;
+    top: 150px;
+}
+#footer{
+    height: 150px;
+    background-color: #ECDAD1;
+}
+.inner_footer{
+    padding-top: 20px;
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+.link{
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+.link li{
+    float: left;
+}
+.link li a{
+    display: block;
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+.link li:nth-child(4) a{
+    margin-right: 0;
+    padding-right: 0;
+}
+.inner_footer> p{
+    margin-top: 10px;
+    line-height: 22px;
+}
+.icon{
+    position: absolute;
+    right: 0;
+    top:80px;
+}
+.icon li{
+    float: left;
+}
+.icon li a{
+    margin-left: 15px;
+}
+.icon li:hover a{
+    opacity: 0.5;
+}
+.insta a img{
+    /* transform: scale(1); */
+    transition: transform 0.8s;
+}
+.insta a img:hover{
+    transform: scale(1.2);   
+}
