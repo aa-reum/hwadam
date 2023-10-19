@@ -114,19 +114,19 @@ span{
 }
 .box_1{
     height: 650px;
-    background: url(/images/1.png) no-repeat center bottom -115px;
+    background: url(../images/1.png) no-repeat center bottom -115px;
 }
 .box_2{
     height: 650px;
-    background: #ECE0C9 url(/images/2.png) no-repeat center bottom -115px;
+    background: #ECE0C9 url(../images/2.png) no-repeat center bottom -115px;
 }
 .box_3{
     height: 650px;
-    background: url(/images/3.png) no-repeat center bottom -115px;
+    background: url(../images/3.png) no-repeat center bottom -115px;
 }
 .box_4{
     height: 650px;
-    background: #D6DBCB url(/images/4.png) no-repeat center bottom -115px;
+    background: #D6DBCB url(../images/4.png) no-repeat center bottom -115px;
 }
 .auto{
     height: 650px;
