@@ -101,6 +101,7 @@ body {
 
 /*banner*/
 #banner {
+    overflow: hidden;
     background-color: #FBEEE5;
     height: 900px;
 }
