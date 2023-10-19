@@ -54,6 +54,7 @@ body{
     color: #C99C89;
 }
 #banner{
+    overflow: hidden;
     height: 1200px;
     background-color: #FEF9F6;
 }
@@ -106,6 +107,10 @@ span{
     width: 310px;
     height: 240px;
     background-color: #D6C0A2;
+}
+#contents{
+    overflow: hidden;
+    height: 3000px;
 }
 .box_1{
     height: 650px;
@@ -166,7 +171,7 @@ span{
 #identity{
     box-sizing: border-box;
     padding-top: 90px;
-    margin: 650px auto;
+    margin: 250px auto;
     margin-bottom: 0;
     height: 674px;
     background: url(../images/beautiful-white-camomiles-flowers-on-green-meadow.jpg) center no-repeat;
