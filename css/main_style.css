@@ -238,7 +238,7 @@ h3{
 .bg{
     position: relative;
     background-color: #333;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     height: 750px;
     background-image: url(../images/a-field-of-flowers-with-a-mountain-in-the-background.jpg);
