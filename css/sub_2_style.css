@@ -119,8 +119,9 @@ h2{
 
 }
 #list ul li{
+    width: 13.4%;
     position: relative;
-    margin-left: 11px;
+    margin-left: 1%;
     float: left;
 }
 #list ul li:nth-child(1){
@@ -173,6 +174,9 @@ h2{
 .box_1>.img{
     width: 45%;
     float: right;
+}
+.box_1>.img>img{
+    width: 100%;
 }
 .text{
     font-size: 24px;
